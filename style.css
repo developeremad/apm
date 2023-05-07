@@ -1,0 +1,219 @@
+/*---------common css---------- */
+.cmn-btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25;
+    background-color: azure;
+   
+    font-weight: 600;
+   
+}
+.cmn-btn:hover{background-color:orange;
+color: white;}
+
+.sp{padding: 70px 0;}
+img{max-width: 100%;}
+
+
+
+
+/* header css start */
+
+.header-part{
+    background-color: rgb(255, 255, 255);}
+.header-logo{}
+
+.headerlogo img{
+    width: 110px;}
+
+.menu{
+
+}
+.menu ul{
+list-style: none;
+padding: 0;
+margin: 0;
+text-align: right;}
+.menu ul li{
+display: inline-block;}
+.menu ul li a{
+    color: black;
+    display:block;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    line-height: 40px;
+    font-weight: bold;
+    
+}
+
+
+/* banner css */
+.banner-part{
+background-image: url(https://i.ibb.co/Ns7ctfQ/kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+background-position: center ;
+padding: 260px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner-part{
+position: relative;
+z-index: 1;}
+.banner-part::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+    z-index: -1;
+}
+
+.banner{
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    
+    
+}
+.banner h1{
+font-weight: 900;
+font-size: 55px;}
+
+
+/* service css start */
+.service-top-text{padding: 90px 0;}
+.service-top-text h1{font-size: 50px;
+
+}
+.service-botton{
+    text-align: center;
+}
+.service-btn{
+background-color: azure;
+box-shadow: 0 0 10px rgb(150, 150, 197);
+
+display: inline-block;
+}
+.service-item{transition: .4s;}
+
+
+/* service item2 css */
+.s-before{}
+.s-before ul{
+    list-style: none;
+    font-size: 20px;
+}
+.s-before .l1::before{
+    content: "\f00c";
+    font-family: "Font Awesome 6 Pro";
+    font-size: 30px;
+    color: orange;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+.s-before .l2::before{
+    content: "\e59b";
+    font-family: "Font Awesome 6 Pro";
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+    margin-right: 20px;
+
+   
+
+    
+}
+.parent{transition: .4s;}
+.parent:hover .service-item{background-color: orange;}
+.parent:hover .service-btn{background-color: orange;}
+
+
+
+/* team */
+.imagediv{height: 400px;
+width: 100%;
+border: 5px double red;}
+
+.imagediv img{}
+/* .free{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 5px 5px;
+   
+} */
+.imagediv{position: relative;}
+
+
+/* -------subscribe css--------- */
+.subscribe{text-align: center;}
+.sub-btn{background-color: #aa972c;}
+.subinput{width: 400px;
+margin-top: 40px;
+padding: 10px 0;
+border-radius: 10px;
+}
+.subinput:focus{
+    border: 5px solid #aa972c;
+    outline: 0;}
+
+    /* another service */
+.another-list{
+
+}
+.gap{margin-right: 15px;}
+
+.feedp{
+line-height: 35px;}
+.feedimage{height: 100px;
+width: 100px;
+padding: 5px;
+background-color: #aa972c;}
+.feedimage img{max-width: 100%;}
+
+.feedback-item{position: relative;}
+.feedback-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 227px;
+    right: 0;
+    font-weight: 600;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    transform: rotate(45deg);
+    margin: auto;
+}
+
+
+.ftext-part::after {
+    content: "\f10d";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 600;
+    font-size: 120px;
+    position: absolute;
+    top:-30px;
+    left:30px;
+    opacity: .3;
+    
+    
+}
+form input{margin-bottom: 20px;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border: 5px solid olivedrab;;
+    outline: 0;
+    box-shadow:none;
+}
+
+
+
+
+
+
